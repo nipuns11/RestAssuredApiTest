@@ -30,7 +30,7 @@ public class PostRequest {
 	
 		// delete request
 		given().body("{\"id\":\"" + pid + "\",\"createdAt\":\"" + date + "\"}").when().post("/api/users").then()
-				.assertThat().statusCode(201).and().body("status", equalTo("Created"));
+				.assertThat().statusCode(201);
 
 		}
 

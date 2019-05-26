@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rest.basic.testing.PostRequest">
+      <class name="rest.basic.testing.ParsingJson">
         <methods>
-          <include name="ValidatePostResp"/>
+          <include name="ValidateResp"/>
         </methods>
-      </class> <!-- rest.basic.testing.PostRequest -->
+      </class> <!-- rest.basic.testing.ParsingJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
